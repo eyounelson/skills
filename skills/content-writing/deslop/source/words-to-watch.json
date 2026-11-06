@@ -1,0 +1,920 @@
+{
+  "revid": 1383697236,
+  "timestamp": "2026-11-04T06:08:39Z",
+  "headings": [
+    "Caveats",
+    "  AI detection tools",
+    "  Your detection ability",
+    "Content",
+    "  Undue emphasis on significance, legacy, and broader trends",
+    "  Canned emphasis on notability, attribution, and media coverage",
+    "  Undue emphasis on identification by primary or tertiary sources",
+    "  Superficial analyses",
+    "  Vague expression of connection or association",
+    "  Vague attributions and overgeneralization of opinions",
+    "  Outline-like conclusions about challenges and future prospects",
+    "  \"Awards and recognition\" section",
+    "Language and grammar",
+    "  High density of \"AI vocabulary\" words",
+    "  Avoidance of basic copulatives (\"is\"/\"are\" phrases)",
+    "  Negative parallelisms",
+    "    Not just X, but also Y",
+    "    Not X, but Y",
+    "    Y rather than X",
+    "  Leads treating Wikipedia lists or broad article titles as proper nouns",
+    "  Rule of three",
+    "Style",
+    "Communication intended for the user",
+    "  Collaborative communication",
+    "  Hedging disclaimers about source availability and recommended usage",
+    "    2023-24",
+    "    2024-25",
+    "    Mid-2026-present",
+    "  Phrasal templates and placeholder text",
+    "    Date placeholders",
+    "    URL placeholders",
+    "Markup irregularities",
+    "Citations",
+    "  Broken external links",
+    "  Invalid DOI and ISBNs",
+    "  DOIs that lead to unrelated articles",
+    "  Book citations without page numbers or URLs",
+    "  Incorrect or unconventional use of references",
+    "  utm_source{{=}}",
+    "    Links to searches",
+    "  Named references declared in references section but unused in article body",
+    "Comment-specific indicators",
+    "Edit summaries",
+    "  General examples",
+    "  Canned assurance of adherence to Wikipedia policies and guidelines",
+    "  Specific mentions of \"preserved\" or \"retained\" information, \"avoided\" mistakes, and other procedural statements",
+    "  Overemphasis on presence/reliability of citations",
+    "  Overemphasis on parameter/template names and markup idiosyncracies",
+    "  Reference to AfC review",
+    "Miscellaneous",
+    "  Pronounced shift in writing style",
+    "  \"Submission statements\" in AfC drafts",
+    "  Pre-placed maintenance templates",
+    "  Canned user pages",
+    "  Permissions gaming",
+    "  Differences between LLMs",
+    "  Biases in content",
+    "    Pro-authoritarian bias",
+    "Signs of human writing",
+    "  Age of text relative to ChatGPT launch",
+    "  Ability to explain one's own editorial choices",
+    "  Syntax",
+    "Ineffective indicators",
+    "Historical indicators",
+    "  Promotional and advertisement-like language (2023–2025)",
+    "  Statements about knowledge cutoffs (2022–2023)",
+    "  Section summaries",
+    "  Prompt refusal",
+    "  Overuse of em dashes (2022–September 2026)",
+    "  Abrupt cut offs",
+    "  Outdated ''access-date'' parameters",
+    "  Lexical diversity/elegant variation",
+    "See also",
+    "Notes",
+    "References",
+    "Further reading",
+    "External links"
+  ],
+  "entries": [
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "stands/serves as",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "is a testament/reminder",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "a crucial/pivotal/vital/significant/key role/moment",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "underscores/highlights its importance/significance",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "reflects broader",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "symbolizing its ongoing/enduring/lasting",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "contributing to the",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "setting the stage for",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "marking/shaping the",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "represents/marks a shift",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "key turning point",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "evolving landscape",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "focal point",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "indelible mark",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "deeply rooted",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "distinction [matters/is important] because",
+      "historical": false
+    },
+    {
+      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "phrase": "independent coverage",
+      "historical": false
+    },
+    {
+      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "phrase": "local/regional/national/[country name] media outlets",
+      "historical": false
+    },
+    {
+      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "phrase": "music/business/tech outlets",
+      "historical": false
+    },
+    {
+      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "phrase": "trade publications",
+      "historical": false
+    },
+    {
+      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "phrase": "cited/featured/profiled in",
+      "historical": false
+    },
+    {
+      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "phrase": "written by a leading expert",
+      "historical": false
+    },
+    {
+      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "phrase": "active social media presence",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "phrase": "Databases/records/listings/filings/materials identify/list/describe [article subject] as...",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "phrase": "was identified by [source] as [fact]...",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "phrase": "is listed in",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "phrase": "his/her professional profile lists",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "highlighting/underscoring/emphasizing ...",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "ensuring ...",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "reflecting/symbolizing ...",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "contributing to ...",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "cultivating/fostering ...",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "encompassing ...",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "enhancing ...",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "valuable insights",
+      "historical": false
+    },
+    {
+      "section": "Superficial analyses",
+      "phrase": "align/resonate with",
+      "historical": false
+    },
+    {
+      "section": "Vague expression of connection or association",
+      "phrase": "in connection with/to ...",
+      "historical": false
+    },
+    {
+      "section": "Vague expression of connection or association",
+      "phrase": "connected with/to",
+      "historical": false
+    },
+    {
+      "section": "Vague expression of connection or association",
+      "phrase": "in association with ...",
+      "historical": false
+    },
+    {
+      "section": "Vague expression of connection or association",
+      "phrase": "associated with",
+      "historical": false
+    },
+    {
+      "section": "Vague attributions and overgeneralization of opinions",
+      "phrase": "Industry reports",
+      "historical": false
+    },
+    {
+      "section": "Vague attributions and overgeneralization of opinions",
+      "phrase": "Observers have cited",
+      "historical": false
+    },
+    {
+      "section": "Vague attributions and overgeneralization of opinions",
+      "phrase": "Experts argue",
+      "historical": false
+    },
+    {
+      "section": "Vague attributions and overgeneralization of opinions",
+      "phrase": "Some critics argue",
+      "historical": false
+    },
+    {
+      "section": "Vague attributions and overgeneralization of opinions",
+      "phrase": "several sources/publications",
+      "historical": false
+    },
+    {
+      "section": "Vague attributions and overgeneralization of opinions",
+      "phrase": "such as",
+      "historical": false
+    },
+    {
+      "section": "Outline-like conclusions about challenges and future prospects",
+      "phrase": "Despite its... faces several challenges...",
+      "historical": false
+    },
+    {
+      "section": "Outline-like conclusions about challenges and future prospects",
+      "phrase": "Despite these challenges",
+      "historical": false
+    },
+    {
+      "section": "Outline-like conclusions about challenges and future prospects",
+      "phrase": "Challenges and Legacy",
+      "historical": false
+    },
+    {
+      "section": "Outline-like conclusions about challenges and future prospects",
+      "phrase": "Future Outlook",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "Additionally",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "align with",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "boasts",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "bolstered",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "crucial",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "deep dive",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "delve",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "emphasizing",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "enduring",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "enhance",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "fostering",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "garner",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "highlight",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "interplay",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "intricate/intricacies",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "landscape",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "meticulous/meticulously",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "pivotal",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "robust",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "showcase",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "tapestry",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "testament",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "underscore",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "valuable",
+      "historical": false
+    },
+    {
+      "section": "High density of \"AI vocabulary\" words",
+      "phrase": "vibrant",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "Additionally",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "boasts",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "bolstered",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "crucial",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "delve",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "emphasizing",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "enduring",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "garner",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "intricate/intricacies",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "interplay",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "key",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "landscape",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "meticulously",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "pivotal",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "underscore",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "tapestry",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "testament",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "valuable",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, 2023 to mid-2024 (GPT-4)",
+      "phrase": "vibrant",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "align with",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "bolstered",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "crucial",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "emphasizing",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "enhance",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "enduring",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "fostering",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "highlighting",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "pivotal",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "showcasing",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "underscore",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2024 to mid-2025 (GPT-4o)",
+      "phrase": "vibrant",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2025 to mid-2026 (GPT-5)",
+      "phrase": "emphasizing",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2025 to mid-2026 (GPT-5)",
+      "phrase": "enhance",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2025 to mid-2026 (GPT-5)",
+      "phrase": "highlighting",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2025 to mid-2026 (GPT-5)",
+      "phrase": "showcasing",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "challenge",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "clearer",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "dependable",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "echoed",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "foster",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "leverage",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "matters",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "multifaceted",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "practical",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "prioritize",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "quietly",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "steady",
+      "historical": false
+    },
+    {
+      "section": "AI vocabulary, Mid-2026 and on (GPT-6)",
+      "phrase": "universally",
+      "historical": false
+    },
+    {
+      "section": "Avoidance of basic copulatives (\"is\"/\"are\" phrases)",
+      "phrase": "serves as/stands as/marks/functions as/operates as/represents [a]",
+      "historical": false
+    },
+    {
+      "section": "Avoidance of basic copulatives (\"is\"/\"are\" phrases)",
+      "phrase": "boasts/features/maintains/offers [a]",
+      "historical": false
+    },
+    {
+      "section": "Avoidance of basic copulatives (\"is\"/\"are\" phrases)",
+      "phrase": "refers to",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "a Wikipedia-style article",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "I hope this helps",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "Of course!",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "Certainly!",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "You're absolutely right!",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "Would you like...",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "is there anything else",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "let me know",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "more detailed breakdown",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "here is a",
+      "historical": false
+    },
+    {
+      "section": "Collaborative communication",
+      "phrase": "..., [check/verify/confirm]... ...before [publishing/publication/submitting]",
+      "historical": false
+    },
+    {
+      "section": "Hedging disclaimers about source availability and recommended usage",
+      "phrase": "While specific details are limited/scarce...",
+      "historical": false
+    },
+    {
+      "section": "Hedging disclaimers about source availability and recommended usage",
+      "phrase": "not widely available/documented/disclosed",
+      "historical": false
+    },
+    {
+      "section": "Hedging disclaimers about source availability and recommended usage",
+      "phrase": "...in the provided/available sources / search results...",
+      "historical": false
+    },
+    {
+      "section": "Hedging disclaimers about source availability and recommended usage",
+      "phrase": "[claim] should be [treated/presented] as... rather than...",
+      "historical": false
+    },
+    {
+      "section": "Hedging disclaimers about source availability and recommended usage",
+      "phrase": "based on available information",
+      "historical": false
+    },
+    {
+      "section": "Hedging disclaimers about source availability and recommended usage",
+      "phrase": "...does not by itself establish...",
+      "historical": false
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "boasts a",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "vibrant",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "rich",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "profound",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "enhancing",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "showcasing",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "exemplifies",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "commitment to",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "natural beauty",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "nestled",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "in the heart of",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "groundbreaking",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "renowned",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "featuring",
+      "historical": true
+    },
+    {
+      "section": "Promotional and advertisement-like language (2023–2025)",
+      "phrase": "diverse array",
+      "historical": true
+    },
+    {
+      "section": "Statements about knowledge cutoffs (2022–2023)",
+      "phrase": "Up to my last training update",
+      "historical": true
+    },
+    {
+      "section": "Statements about knowledge cutoffs (2022–2023)",
+      "phrase": "as of my last knowledge update",
+      "historical": true
+    },
+    {
+      "section": "Section summaries",
+      "phrase": "In summary",
+      "historical": true
+    },
+    {
+      "section": "Section summaries",
+      "phrase": "In conclusion",
+      "historical": true
+    },
+    {
+      "section": "Section summaries",
+      "phrase": "Overall",
+      "historical": true
+    },
+    {
+      "section": "Prompt refusal",
+      "phrase": "as an AI language model",
+      "historical": true
+    },
+    {
+      "section": "Prompt refusal",
+      "phrase": "as a large language model",
+      "historical": true
+    },
+    {
+      "section": "Prompt refusal",
+      "phrase": "I cannot offer medical advice, but I can...",
+      "historical": true
+    },
+    {
+      "section": "Prompt refusal",
+      "phrase": "I'm sorry",
+      "historical": true
+    }
+  ]
+}

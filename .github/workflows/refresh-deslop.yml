@@ -1,0 +1,73 @@
+# Weekly check of Wikipedia:Signs of AI writing for the deslop skill.
+# Opens (or updates) one pull request when the guide's sections or watch lists
+# change. Edits that only add examples or reword text are skipped.
+name: Refresh deslop catalog
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh-deslop
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SKILL_DIR: skills/content-writing/deslop
+      BRANCH: automation/deslop-refresh
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Check the live page
+        id: check
+        run: |
+          set +e
+          python3 "$SKILL_DIR/scripts/refresh.py" --check
+          status=$?
+          set -e
+          if [ "$status" -gt 2 ]; then exit 1; fi
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+
+      - name: Update the snapshot
+        if: steps.check.outputs.status == '2'
+        run: python3 "$SKILL_DIR/scripts/refresh.py" | tee "$RUNNER_TEMP/report.txt"
+
+      - name: Open or update the pull request
+        if: steps.check.outputs.status == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE: ${{ github.event.repository.default_branch }}
+        run: |
+          revision="$(cut -d' ' -f1 "$SKILL_DIR/source/REVISION")"
+          title="deslop: Signs of AI writing changed (revision $revision)"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add "$SKILL_DIR/source"
+          git commit -m "$title"
+          git push --force origin "$BRANCH"
+
+          {
+            echo "The weekly check found new sections or watch-list phrases in [Wikipedia:Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)."
+            echo
+            echo "This PR updates the snapshot in \`$SKILL_DIR/source/\`, so the scanner already uses the new watch list. \`references/signs.md\` is curated by hand: before merging, update it as described under \"Keeping the catalog current\" in the skill's \`SKILL.md\`."
+            echo
+            echo '```'
+            cat "$RUNNER_TEMP/report.txt"
+            echo '```'
+          } > "$RUNNER_TEMP/body.md"
+
+          if [ "$(gh pr view "$BRANCH" --json state --jq .state 2>/dev/null)" = "OPEN" ]; then
+            gh pr edit "$BRANCH" --title "$title" --body-file "$RUNNER_TEMP/body.md"
+          else
+            gh pr create --base "$BASE" --head "$BRANCH" --title "$title" --body-file "$RUNNER_TEMP/body.md"
+          fi

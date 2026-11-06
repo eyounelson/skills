@@ -1,0 +1,21 @@
+{
+  "name": "eyounelson-skills",
+  "owner": {
+    "name": "Emman Nelson",
+    "url": "https://github.com/eyounelson"
+  },
+  "description": "Agent skills by Emman Nelson, one plugin per category.",
+  "plugins": [
+    {
+      "name": "content-writing",
+      "source": "./",
+      "strict": false,
+      "description": "Skills for writing and editing prose: de-slop drafts using Wikipedia's Signs of AI writing.",
+      "category": "writing",
+      "keywords": ["writing", "editing", "ai-writing", "deslop"],
+      "skills": [
+        "./skills/content-writing/deslop"
+      ]
+    }
+  ]
+}
