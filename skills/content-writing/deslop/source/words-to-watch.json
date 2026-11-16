@@ -1,14 +1,16 @@
 {
-  "revid": 1383697236,
-  "timestamp": "2026-11-04T06:08:39Z",
+  "revid": 1385986997,
+  "timestamp": "2026-11-16T07:23:05Z",
   "headings": [
     "Caveats",
     "  AI detection tools",
     "  Your detection ability",
     "Content",
     "  Undue emphasis on significance, legacy, and broader trends",
-    "  Canned emphasis on notability, attribution, and media coverage",
-    "  Undue emphasis on identification by primary or tertiary sources",
+    "    Claims that a topic has influenced discussions about related topics",
+    "  Undue emphasis on notability, attribution, and media coverage",
+    "    Undue emphasis on identification by primary or tertiary sources",
+    "    Undue emphasis on online presence",
     "  Superficial analyses",
     "  Vague expression of connection or association",
     "  Vague attributions and overgeneralization of opinions",
@@ -27,9 +29,9 @@
     "Communication intended for the user",
     "  Collaborative communication",
     "  Hedging disclaimers about source availability and recommended usage",
-    "    2023-24",
-    "    2024-25",
-    "    Mid-2026-present",
+    "    2023–2024",
+    "    2024–2025",
+    "    Mid-2026–present",
     "  Phrasal templates and placeholder text",
     "    Date placeholders",
     "    URL placeholders",
@@ -59,7 +61,6 @@
     "  Permissions gaming",
     "  Differences between LLMs",
     "  Biases in content",
-    "    Pro-authoritarian bias",
     "Signs of human writing",
     "  Age of text relative to ChatGPT launch",
     "  Ability to explain one's own editorial choices",
@@ -162,57 +163,52 @@
       "historical": false
     },
     {
-      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "section": "Undue emphasis on significance, legacy, and broader trends",
+      "phrase": "has/have shaped conversations/discussions/debate about",
+      "historical": false
+    },
+    {
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "independent coverage",
       "historical": false
     },
     {
-      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "local/regional/national/[country name] media outlets",
       "historical": false
     },
     {
-      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "music/business/tech outlets",
       "historical": false
     },
     {
-      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "trade publications",
       "historical": false
     },
     {
-      "section": "Canned emphasis on notability, attribution, and media coverage",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "cited/featured/profiled in",
       "historical": false
     },
     {
-      "section": "Canned emphasis on notability, attribution, and media coverage",
-      "phrase": "written by a leading expert",
-      "historical": false
-    },
-    {
-      "section": "Canned emphasis on notability, attribution, and media coverage",
-      "phrase": "active social media presence",
-      "historical": false
-    },
-    {
-      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "Databases/records/listings/filings/materials identify/list/describe [article subject] as...",
       "historical": false
     },
     {
-      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "was identified by [source] as [fact]...",
       "historical": false
     },
     {
-      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "is listed in",
       "historical": false
     },
     {
-      "section": "Undue emphasis on identification by primary or tertiary sources",
+      "section": "Undue emphasis on notability, attribution, and media coverage",
       "phrase": "his/her professional profile lists",
       "historical": false
     },
